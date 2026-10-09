@@ -1,0 +1,14 @@
+[project]
+name = "proxy-auto-config"
+version = "0.1.0"
+description = "Parse a PAC file and evaluate its JavaScript logic in a minimal evaluator to determine the proxy for a given URL."
+requires-python = ">=3.10"
+dependencies = []
+readme = "README.md"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
